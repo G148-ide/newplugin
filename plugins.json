@@ -1,0 +1,8 @@
+{
+  "name": "<repository name>",
+  "description": "<repository description>",
+  "manifestVersion": 1,
+  "pluginLists": [
+    "<https://raw.githubusercontent.com/G148-ide/newplugin/builds/play-sub-indo.json>"
+  ]
+}
