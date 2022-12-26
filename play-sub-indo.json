@@ -1,8 +1,1 @@
-{
-  "name": "<play>",
-  "description": "<sub-indo>",
-  "manifestVersion": 1,
-  "pluginLists": [
-    "<direct link to plugins.json>"
-  ]
-}
+{"_id":"play-sub-indo","startUrl":["https://playbokep.co/subtitle-indonesia"],"selectors":[{"id":"Link-Film","parentSelectors":["_root"],"type":"SelectorLink","selector":".tag-bandarsub a","multiple":true},{"id":"Next-Page","parentSelectors":["_root","Next-Page"],"paginationType":"auto","selector":".pagination li:nth-of-type(6) a","type":"SelectorPagination"},{"id":"Judul-Film","parentSelectors":["Link-Film"],"type":"SelectorText","selector":"h1","multiple":false,"regex":""},{"id":"Link-Download","parentSelectors":["Link-Film"],"type":"SelectorLink","selector":"a#tracking-url","multiple":false}]}
