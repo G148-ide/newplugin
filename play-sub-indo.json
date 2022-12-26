@@ -1,0 +1,8 @@
+{
+  "name": "<play>",
+  "description": "<sub-indo>",
+  "manifestVersion": 1,
+  "pluginLists": [
+    "<direct link to plugins.json>"
+  ]
+}
